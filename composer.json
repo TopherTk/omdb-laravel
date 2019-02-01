@@ -1,0 +1,31 @@
+{
+    "name": "tophertk/omdblaravel",
+    "description": "A Laravel wrapper for the Open Movie Database API",
+    "type": "library",
+    "require": {
+        "php": "^7.1.2",
+        "laravel/framework": "5.7.*",
+        "guzzlehttp/guzzle": "^6.3@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Crawford",
+            "email": "scottishegg@live.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+
+    "autoload": {
+        "psr-4": {
+            "TopherTk\\OmdbLaravel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TopherTk\\OmdbLaravel\\OmdbServiceProvider"
+            ]
+        }
+    }
+}
