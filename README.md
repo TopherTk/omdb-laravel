@@ -39,7 +39,7 @@ At present this file only contains a reference to the API key stored in the `.en
 return [  
  'omdb_api_key' => env("OMDB_API_KEY")];  
 ```   
-##Usage  
+## Usage  
 To receive data from the API you will first need to instantiate a new query  
 this object requires an array containing at least one element to be passed in.  
   
