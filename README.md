@@ -64,12 +64,12 @@ and will return an associative array via the `getMediaInformation()` method.
 | Parameter | Description | Options  
 |---|---|---|  
 | imdb_id      | ID assigned on IMDB       | e.g (12345667)  
-| title        | Name of the media         | Air Force One  
+| title        | Name of the media         | e.g Air Force One  
 | media_type   | Type of media             | movie, series, episode  
-| release_year | Year of release           | 1997  
+| release_year | Year of release           | e.g 1997  
 | plot         | Media Plot                | short, full  
-| season       | Season of a TV show       | season number  
-| episode      | Episode number of a season| episode number   
+| season       | Season of a TV show       | season number - 01, 02 etc.. 
+| episode      | Episode number of a season| episode number - 12, 13 etc..
   
   
 ## Credits  
