@@ -13,7 +13,7 @@ It is intended to be used with the PHP Laravel Framework
 *Requirements*  
 * [Composer](https://getcomposer.org/)  
 * [PHP 7.1](http://php.net/releases/7_1_0.php)  
-* [Laravel 5.7.*](https://laravel.com)  
+* [Laravel 5.8.*](https://laravel.com)  
 * [A valid OMDB API key](http://www.omdbapi.com/apikey.aspx)  
   
 You can install the package using Composer.  
